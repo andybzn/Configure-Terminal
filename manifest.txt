@@ -1,1 +1,3 @@
 https://raw.githubusercontent.com/dark-coffee/Get-ServiceState/master/Get-ServiceState.ps1
+https://raw.githubusercontent.com/dark-coffee/Use-Google/master/Use-Google.ps1
+https://raw.githubusercontent.com/dark-coffee/New-PoshScript/master/New-PoshScript.ps1
