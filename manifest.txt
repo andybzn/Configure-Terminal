@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/dark-coffee/Get-ServiceState/master/Get-ServiceState.ps1
