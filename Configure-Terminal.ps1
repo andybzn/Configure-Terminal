@@ -1,7 +1,7 @@
 #Script Name: #Configure-Terminal
 #Creator: Dark-Coffee
 #Version: 0.0.4
-#Updated: 27th September 2019
+#Updated: 28th September 2019
 #Url: https://github.com/dark-coffee/Configure-Terminal
 
 #Pulls a custom manifest for my ps setup, downloads assoc scripts, imports.
