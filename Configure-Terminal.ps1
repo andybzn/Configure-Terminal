@@ -1,10 +1,16 @@
-#Script Name: #Configure-Terminal
-#Creator: Dark-Coffee
-#Version: 0.0.4
-#Updated: 28th September 2019
-#Url: https://github.com/dark-coffee/Configure-Terminal
+<#
+Script Name: Configure-Terminal.ps1
+Author: Dark-Coffee
+Version: 0.1.0
+Updated: 2020-02-09
+Url: https://github.com/dark-coffee/Configure-Terminal
+#>
 
-#Pulls a custom manifest for my ps setup, downloads assoc scripts, imports.
+<#
+.Description
+    Configures powershell terminal using custom modules from github.
+#>
+
 if (!(Test-Path "$pwd\down")){ New-Item -Path "$PWD\down\" -ItemType Directory }
 
 $ManifestUrl =  "https://raw.githubusercontent.com/dark-coffee/Configure-Terminal/master/manifest.txt"
