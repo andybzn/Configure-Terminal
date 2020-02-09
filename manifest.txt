@@ -1,4 +1,6 @@
+https://raw.githubusercontent.com/dark-coffee/Initialize-Console/master/Initialise-Console.ps1
 https://raw.githubusercontent.com/dark-coffee/Get-ServiceState/master/Get-ServiceState.ps1
 https://raw.githubusercontent.com/dark-coffee/New-PoshScript/master/New-PoshScript.ps1
 https://raw.githubusercontent.com/dark-coffee/Get-Directory/master/Get-Directory.ps1
+https://raw.githubusercontent.com/dark-coffee/Power-Sponge/master/Power-Sponge.ps1
 https://raw.githubusercontent.com/dark-coffee/Use-Google/master/Use-Google.ps1
