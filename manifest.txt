@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/dark-coffee/Configure-Terminal/master/dark-coffee.psd1
+https://raw.githubusercontent.com/dark-coffee/Configure-Terminal/master/dark-coffee.psm1
 https://raw.githubusercontent.com/dark-coffee/Initialize-Console/master/Initialise-Console.ps1
 https://raw.githubusercontent.com/dark-coffee/Get-ServiceState/master/Get-ServiceState.ps1
 https://raw.githubusercontent.com/dark-coffee/New-PoshScript/master/New-PoshScript.ps1
