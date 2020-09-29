@@ -17,13 +17,13 @@ $ManifestDestination = "$ModuleLocation\manifest.txt"
 
 if(!(Test-Path $ModuleLocation)){ New-Item -Path $ModuleLocation -ItemType Directory -Force }
 
-Invoke-WebRequest -Uri $ManifestURL -OutFile $ManifestDestination
+Start-BitsTransfer -Source $ManifestURL -Destination $ManifestDestination
 
 $Manifest = Get-Content $ManifestDestination
 
 foreach($Url in $Manifest){
     $Filename = $Url -replace ".*/*/"
-    Invoke-WebRequest -Uri $Url -OutFile "$ModuleLocation\$Filename"
+    Start-BitsTransfer -Source $Url -Destination "$ModuleLocation\$Filename"
 }
 
 Import-Module dark-coffee
